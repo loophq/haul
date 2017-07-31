@@ -32,4 +32,6 @@ if (!global.self) {
   global.self = global; /* eslint-disable-line */
 }
 
-require('InitializeCore');
+// TODO(indigo): Uncomment once we update react-native.
+// Loop: we don't use the latest react-native so comment this initialize require out.
+// require('InitializeCore');
